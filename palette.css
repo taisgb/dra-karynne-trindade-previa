@@ -1,0 +1,1 @@
+ :root{--brand:#854a4c;--soft:#f9e4df;--alt:#fcf2e9;--third:#eee5fa;--accent:#d19a94;--ink:#392c33;--muted:#68535c;--paper:#fffdfa;--line:#e8d3d2} .brand img{width:140px;height:auto;object-fit:contain;border-radius:8px} .portrait img{object-fit:cover;object-position:center 25%} @media(max-width:480px){.brand img{width:112px}} 
