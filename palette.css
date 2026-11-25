@@ -1,2 +1,8 @@
 /* Identidade inspirada no material fornecido, sujeita à aprovação. */
 :root{--brand-magenta:#854a4c;--brand-turquoise:#f6dfdb;--brand-yellow:#efc6b1;--brand-blue:#9464b7;--brand-coral:#e6a99e;--brand-mint:#e9dff5;--brand-sky:#f2e0ea;--bg:#fcf2e9;--paper:#fffdfa;--ink:#392c33;--muted:#68535c;--green:var(--brand-magenta);--sage:#f6dfdb;--rose:#854a4c;--line:#e8d3d2;--primary-hover:#64343a;--focus:#79518c;--dot:#a66a72;--shape:#f6dfdb;--portrait:#eadcf3;--ornament:#854a4c;--ornament-dot:#d69a9d;--rating:#785346;--section:#fffdfa;--stage-one:#f8e2d5;--stage-two:#e9dff5;--stage-three:#f4d2c9;--stage-four:#efd8e5;--stage-ink:#392c33;--stage-border:#a88b92;--about-bg:#f6dfdb;--photo-tag:#fffdfaf5;--process:#f9e9e4;--process-border:#d8b9bd;--gallery:#efd8e5;--review:#f3e7f5;--review-border:#d4bedb;--on-primary:#fff;--on-primary-soft:#ffe7d9;--on-primary-text:#fff2ed;--light-hover:#f8e2d5;--outline-hover:#64343a;--footer:#f7e5df;--allo:Allo,'DM Sans',Arial,sans-serif;--body:'DM Sans',Arial,sans-serif;}
+
+/* Marca transparente — acabamento e proporções */
+.brand img{width:clamp(118px,12vw,154px);height:auto;object-fit:contain;border-radius:0;background:transparent;}
+.about-refined .brand-portrait img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain;padding:clamp(16px,3vw,30px);background:transparent;}
+.about-refined .brand-portrait{background:var(--paper);}
+@media(max-width:800px){.header .brand img{width:116px;}}
